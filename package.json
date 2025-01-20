@@ -9,11 +9,6 @@
     "lint": "next lint",
     "prepare": "husky install"
   },
-  "lint-staged": {
-    "*.{js,ts,jsx,tsx}": [
-      "eslint"
-    ]
-  },
   "dependencies": {
     "next": "15.1.5",
     "react": "^19.0.0",
