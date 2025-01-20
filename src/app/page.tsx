@@ -4,7 +4,7 @@ import styles from './page.module.css';
 export default function Home() {
   return (
     <div className={styles.page}>
-      <div>aaaaaasd</div>
+      <div>aaaaaasdawer</div>
       <main className={styles.main}>
         <Image
           className={styles.logo}
