@@ -1,5 +1,5 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import Image from 'next/image';
+import styles from './page.module.css';
 
 export default function Home() {
   return (
@@ -25,8 +25,7 @@ export default function Home() {
             className={styles.primary}
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
             target="_blank"
-            rel="noopener noreferrer"
-          >
+            rel="noopener noreferrer">
             <Image
               className={styles.logo}
               src="/vercel.svg"
@@ -40,8 +39,7 @@ export default function Home() {
             href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
             target="_blank"
             rel="noopener noreferrer"
-            className={styles.secondary}
-          >
+            className={styles.secondary}>
             Read our docs
           </a>
         </div>
@@ -50,8 +48,7 @@ export default function Home() {
         <a
           href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
           target="_blank"
-          rel="noopener noreferrer"
-        >
+          rel="noopener noreferrer">
           <Image
             aria-hidden
             src="/file.svg"
@@ -64,8 +61,7 @@ export default function Home() {
         <a
           href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
           target="_blank"
-          rel="noopener noreferrer"
-        >
+          rel="noopener noreferrer">
           <Image
             aria-hidden
             src="/window.svg"
@@ -78,8 +74,7 @@ export default function Home() {
         <a
           href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
           target="_blank"
-          rel="noopener noreferrer"
-        >
+          rel="noopener noreferrer">
           <Image
             aria-hidden
             src="/globe.svg"
